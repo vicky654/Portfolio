@@ -6,7 +6,7 @@ const Gmail = () => {
     <div className="w-10 fixed bottom-0 md:right-2 lg:right-4 xl:right-7 left-auto z-10 hidden md:flex">
       <motion.div className="flex flex-col items-center gap-5">
         <motion.a
-          href="mailto:nd.naufaldzaki@gmail.com"
+          href="mailto:vickyverma2026@gmail.com"
           className="text-nd-secondary text-xl rotate-180"
           style={{ writingMode: "vertical-rl" }}
           initial="hidden"
@@ -17,7 +17,7 @@ const Gmail = () => {
             hidden: { opacity: 0, y: 30 },
             visible: { opacity: 1, y: 0 },
           }}>
-          nd.naufaldzaki@gmail.com
+          vickyverma2026@gmail.com
         </motion.a>
         <motion.hr
           className="border-l border-nd-secondary"

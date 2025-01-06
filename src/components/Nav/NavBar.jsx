@@ -49,7 +49,7 @@ const NavBar = ({ selectedPage, setSelectedPage, isNotFoundPage = false }) => {
             !isOpen && "bg-nd-dark-1/2"
           } z-20 backdrop-blur-lg`}>
           <div className="flex flex-wrap items-center justify-between w-full">
-            <div className="text-nd-primary text-4xl">nd,</div>
+            <div className="text-nd-primary text-4xl">Frontend Developer</div>
             <div
               ref={navRef}
               className={`${

@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 
 const Contact = ({ setSelectedPage }) => {
   const handleClickButton = () => {
-    window.location.href = "mailto:nd.naufaldzaki@gmail.com";
+    window.location.href = "mailto:vickyverma2026@gmail.com";
   };
 
   return (

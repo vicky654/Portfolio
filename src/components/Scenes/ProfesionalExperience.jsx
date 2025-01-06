@@ -6,7 +6,7 @@ import HandleCompanyLogo from "../../utils/HandleCompanyLogo";
 import HandleExperienceDate from "../../utils/HandleExperienceDate";
 
 const ProfesionalExperience = ({ setSelectedPage }) => {
-  const experience = data.experience;
+  const experience = data?.experience;
 
   return (
     <div
@@ -29,8 +29,8 @@ const ProfesionalExperience = ({ setSelectedPage }) => {
         <hr className="border-t border-nd-primary ml-5 flex-grow max-w-[300px]" />
       </motion.div>
       <motion.div onViewportEnter={() => setSelectedPage("experience")}>
-        {experience.map((value) => (
-          <div className="flex gap-3 mx-3 sm:mx-4 md:mx-5" key={value.id}>
+        {experience?.map((value) => (
+          <div className="flex gap-3 mx-3 sm:mx-4 md:mx-5" key={value?.id}>
             <div className="flex flex-col items-center">
               <motion.span
                 initial="hidden"
@@ -41,9 +41,14 @@ const ProfesionalExperience = ({ setSelectedPage }) => {
                   hidden: { opacity: 0, y: 35 },
                   visible: { opacity: 1, y: 0 },
                 }}>
-                {HandleCompanyLogo(value.company)}
+                      <img
+              src="src/assets/Logos/"
+              alt="Company Logo"
+              className="w-100 h-100 object-cover bg-nd-white self-end justify-self-center"
+            />
+
               </motion.span>
-              {experience.length - value.id !== 0 && (
+              {experience.length - value?.id !== 0 && (
                 <motion.hr
                   className="border-l border-nd-third h-full"
                   initial="hidden"
@@ -68,12 +73,12 @@ const ProfesionalExperience = ({ setSelectedPage }) => {
                   hidden: { opacity: 0, y: 35 },
                   visible: { opacity: 1, y: 0 },
                 }}>
-                {value.position}{" "}
+                {value?.position}{" "}
                 <a
-                  href={value.linkCompany}
+                  href={value?.linkCompany}
                   className="text-nd-primary"
                   target={"_blank"}>
-                  @{value.company}
+                  @{value?.company}
                 </a>
               </motion.h1>
               <motion.h5
@@ -86,10 +91,10 @@ const ProfesionalExperience = ({ setSelectedPage }) => {
                   hidden: { opacity: 0, y: 35 },
                   visible: { opacity: 1, y: 0 },
                 }}>
-                {HandleExperienceDate(value.startDate, value.endDate)}
+                {HandleExperienceDate(value?.startDate, value?.endDate)}
               </motion.h5>
               <div className="flex gap-x-2">
-                {value.tech.map((items, index) => (
+                {value?.tech?.map((items, index) => (
                   <motion.span
                     key={index}
                     initial="hidden"
@@ -105,7 +110,7 @@ const ProfesionalExperience = ({ setSelectedPage }) => {
                 ))}
               </div>
               <ul className="flex flex-col gap-y-1 w-full list-inside text-nd-white text-base sm:text-lg mt-2 sm:mt-3 md:mt-4 mb-4 sm:mb-5 md:mb-6">
-                {value.jobDesc.map((items, index) => (
+                {value?.jobDesc.map((items, index) => (
                   <motion.li
                     style={{ listStyleImage: "url(./icon/arrowRight.svg)" }}
                     key={index}

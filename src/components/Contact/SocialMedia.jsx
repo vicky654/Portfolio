@@ -8,7 +8,7 @@ const SocialMedia = () => {
   return (
     <div className="w-full md:w-10 md:fixed md:bottom-0 md:left-2 lg:left-4 xl:left-7 md:right-auto md:z-10">
       <motion.ul className="flex flex-row md:flex-col items-center justify-center m-0 p-0 gap-5">
-        <motion.li
+        {/* <motion.li
           initial="hidden"
           whileInView={"visible"}
           viewport={{ once: true, amount: 0.5 }}
@@ -17,10 +17,10 @@ const SocialMedia = () => {
             hidden: { opacity: 0, y: 30 },
             visible: { opacity: 1, y: 0 },
           }}>
-          <a href="http://github.com/naufal-dzaki" target="_blank">
+          <a href="http://github.com/vicky654" target="_blank">
             <GitHub />
           </a>
-        </motion.li>
+        </motion.li> */}
         <motion.li
           initial="hidden"
           whileInView={"visible"}
@@ -30,7 +30,8 @@ const SocialMedia = () => {
             hidden: { opacity: 0, y: 30 },
             visible: { opacity: 1, y: 0 },
           }}>
-          <a href="http://linkedin.com/in/naufal-dzaki" target="_blank">
+           
+          <a href="http://linkedin.com/in/vicky-verma-950b19176/" target="_blank">
             <LinkedIn />
           </a>
         </motion.li>
@@ -43,7 +44,7 @@ const SocialMedia = () => {
             hidden: { opacity: 0, y: 30 },
             visible: { opacity: 1, y: 0 },
           }}>
-          <a href="http://instagram.com/naufal.dza" target="_blank">
+          <a href="http://instagram.com/vicky3o6" target="_blank">
             <Instagram />
           </a>
         </motion.li>

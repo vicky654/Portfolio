@@ -1,50 +1,99 @@
 {
     "about": [
+     
         {
-            "tech": ["HTML5 & CSS3", "Tailwind CSS", "Bootstrap", "JavaScript", "React JS", "PHP", "Laravel", "Figma"]
+            "tech": [
+                "ReactJS",
+                "TypeScript",
+                "JavaScript",
+                "HTML5",
+                "CSS3",
+                "NextJs",
+                "SASS",
+                "Bootstrap",
+                "Redux",
+                "Context API",
+                "Axios",
+                "Postman",
+                "Webpack",
+                "MJML",
+                "npm",
+                "Git",
+                "GitHub",
+                "JIRA",
+                "Debugging",
+                "Angular"
+            ]
         }
+        
     ],
     "experience": [
         {
             "id": 1,
             "company": "PT. Graha Mutu Persada",
-            "linkCompany": "https://grahamutupersada.com/",
-            "position": "Web Developer (Freelance)",
+            "linkCompany": "https://grahamutsssssssssssssssssssssupersadas.com/",
+            "position": "Web Developer (Freelancdde)",
             "startDate": "02-23-2024",
             "endDate": "Present",
+            "location": "Mohali, Punjab",
             "tech": ["Laravel","Tailwind CSS", "JQuery", "MySQL"],
             "jobDesc": ["Collaborated with a team of 5 developers to build robust and scalable software applications, ensuring high performance and reliability.", "Integrated over 40,000 Excel data entries into the web system by developing an efficient import feature.", "Created data tables according to client specifications, including filter systems handling over 50,000 data entries.", "Optimized SQL queries to enhance the performance of data retrieval processes involving more than 50,000 entries.", "Organized 4 dashboard pages with a total of over 15 charts, including filter systems for comprehensive user analysis related to business processes.", "Developed an export-to-Excel feature, allowing users to select data time ranges for management and monitoring purposes."]
         },
         {
+            "id": 11,
+            "company": "Fiducia Accounting Services Pvt. Ltd",
+            "linkCompany": "https://iecho.org/welcome?redirectURL=/",
+            "position": "Sr. Frontend Developer",
+            "startDate": "04/2023",
+            "endDate": "Present",
+            "location": "Mohali, Punjab",
+            "tech": ["Laravel","Tailwind CSS", "JQuery", "MySQL"],
+            "jobDesc": [
+              "Led a team of 5+ developers to deliver scalable web applications using ReactJS, improving development efficiency by 25%.",
+              "Implemented reusable component libraries, reducing code redundancy by 30%.",
+              "Optimized interfaces for performance and cross-browser compatibility, enhancing user experience.",
+              "Managed project timelines, ensuring adherence to Agile methodologies and delivery deadlines."
+            ]
+          },
+          {
             "id": 2,
-            "company": "Go To Impact Foundation",
-            "linkCompany": "https://www.goto-impact.org/",
-            "position": "Generasi GIGIH Fullstack Developer (Apprenticeship)",
-            "startDate": "07-13-2023",
-            "endDate": "12-11-2023",
-            "tech": ["Mongo DB", "Express JS", "React JS", "Node JS"],
-            "jobDesc": ["Acquired proficiency in building full-stack websites using MongoDB, Express JS, React JS and Node JS through technical classes", "Developed RESTful API with CRUD functionality using Express JS and MongoDB, following the principles of N-Layered structure.", "Developed website interfaces using React.js, following principles of atomic design.", "Completed self-learning placed course from Progate (HTML& CSS, ES6, React JS, Node JS, Git).", "Collaborated with a 5-member team to successfully complete the final capstone project."]
-        },
-        {
+            "company": "Duple IT",
+            "position": "Frontend Developer",
+            "startDate": "08/2022",
+            "endDate": "04/2023",
+            "location": "Mohali, Punjab",
+            "jobDesc": [
+              "Built interactive, user-friendly web interfaces for client projects using ReactJS and TypeScript.",
+              "Developed robust state management solutions with Redux and Context API to streamline workflows.",
+              "Integrated APIs to enable seamless frontend-backend communication, reducing latency by 15%."
+            ]
+          },
+          {
             "id": 3,
-            "company": "Djava Optik",
-            "linkCompany": "https://optikdjava.com/",
-            "position": "Wordpress Developer (FreeLance)",
-            "startDate": "05-16-2023",
-            "endDate": "06-30-2023",
-            "tech": ["wordpress"],
-            "jobDesc": ["Created an online store website using wordpress, showcasing eye glass products and ensuring a user friendly browsing experience", "Optimized website performance by implementing caching and image compression", "Collaborated with a friend to successfully build Djava Optik's online store, integrating payment gateways and order management system"]
-        },
-        {
+            "company": "ECHO India",
+            "position": "Frontend Developer",
+            "startDate": "08/2021",
+            "endDate": "08/2022",
+            "location": "Okhla Phase 3, Delhi",
+            "jobDesc": [
+              "Developed modular and scalable components for the iECHO platform, enabling efficient teleECHO program management.",
+              "Designed responsive user interfaces, increasing user engagement by 20%.",
+              "Automated reporting and session reminders, boosting operational efficiency by 30%.",
+              "Collaborated with global teams to deliver high-quality, product-based solutions."
+            ]
+          },
+          {
             "id": 4,
-            "company": "Peduly",
-            "linkCompany": "https://peduly.com",
-            "position": "Frontend Web Developer (internship)",
-            "startDate": "11-01-2022",
-            "endDate": "02-10-2022",
-            "tech": ["React JS", "Tailwind CSS", "Bootstrap", "SCSS"],
-            "jobDesc": ["Contributed to maintaining and implementing the design-to-code process for <a href='https://peduly.com/' target='_blank' class='underline'>Peduly</a>, utilizing React JS and Tailwind CSS", "Contributed to maintaining and implementing the design-to-code process for <a href='https://admin.peduly.com/' target='_blank' class='underline'>Admin Peduly</a>, utilizing React JS, Bootstrap and SCSS.", "Successfully developed and implemented the design-to-code processes for <a href='https://involuntir.com/' target='_blank' class='underline'>Involuntir</a>, utilizing Tailwind CSS and React JS.", "Collaborated with UI/UX Designer to create visually appealing and user friendly.", "Collaborated with Back-end Engineers to create RESTFUL APIs for seamless communication between front-end and back-end systems."]
-        }
+            "company": "ToXSL Technologies Pvt",
+            "position": "Frontend Development Intern",
+            "startDate": "03/2021",
+            "endDate": "08/2021",
+            "location": "Mohali",
+            "jobDesc": [
+              "Built interactive web interfaces using ReactJS, Redux, and Tailwind CSS.",
+              "Integrated APIs to ensure seamless backend communication and optimized state management."
+            ]
+          }
     ],
     "project": [
         {

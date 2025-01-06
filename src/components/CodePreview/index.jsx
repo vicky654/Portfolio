@@ -49,11 +49,11 @@ const CodePreview = () => {
                 <div className="ml-10">
                   <ReactTyped
                     strings={[
-                      "Halo! Nama saya",
-                      "Hi! My name is",
-                      "Bonjour! mon nom est",
-                      "¡Hola! mi nombre es",
+                      "Hello! I am Vicky Verma",
+                      "Frontend Developer",
+                      "ReactJS Enthusiast",
                     ]}
+               
                     typeSpeed={80}
                     backSpeed={60}
                     backDelay={2000}
@@ -63,16 +63,7 @@ const CodePreview = () => {
                 <div className="ml-5">
                   <CloseTag nameTag={"h3"} />
                 </div>
-                <div className="ml-5">
-                  <OpenTag
-                    nameTag={"h1"}
-                    classProperty={"text-nd-primary text-6xl font-bold"}
-                  />
-                </div>
-                <div className="ml-10">Muhammad Naufal Dzaki.</div>
-                <div className="ml-5">
-                  <CloseTag nameTag={"h1"} />
-                </div>
+           
                 <div className="ml-5">
                   <OpenTag
                     nameTag={"h2"}
@@ -80,18 +71,33 @@ const CodePreview = () => {
                   />
                 </div>
                 <div className="ml-10">
-                  I'm Junior Web Developer based On Surabaya.
+                Frontend Developer | ReactJS | Performance Optimization
                 </div>
+              
                 <div className="ml-5">
                   <CloseTag nameTag={"h2"} />
                 </div>
+                                <div className="ml-5">
+                  <OpenTag
+                    nameTag={"h3"}
+                    classProperty={"text-nd-white text-lg"}
+                  />
+                </div>
+                <div className="ml-10">
+                  Summary: 4 years of experience in ReactJS, API integration,<br></br>
+                  and state management with Redux and Context API.
+                </div>
+                <div className="ml-5">
+                  <CloseTag nameTag={"h3"} />
+                </div>
+
                 <div className="ml-5">
                   <OpenTag
                     nameTag={"button"}
                     classProperty={"button-outline"}
                   />
                 </div>
-                <div className="ml-10">Resume</div>
+                <div className="ml-10">View Resume</div>
                 <div className="ml-5">
                   <CloseTag nameTag={"button"} />
                 </div>

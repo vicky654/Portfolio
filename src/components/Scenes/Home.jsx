@@ -6,10 +6,10 @@ import { motion } from "framer-motion";
 
 const Home = ({ setSelectedPage }) => {
   const handleClickButton = () => {
-    window.open(
-      "https://drive.google.com/file/d/12k9m30SyLDijxswOc-GlknQP_wZ3VAkz/view?usp=sharing",
-      "_blank"
-    );
+    const link = document.createElement("a");
+    link.href = "/src/assets/Resumes/Vicky_Reactjs_Resume.pdf"; // Path to the PDF file
+    link.download = "Vicky_Reactjs.pdf"; // Optional: Specify a custom download file name
+    link.click();
   };
   return (
     <div id="home" className="pt-0 sm:pt-12 md:pt-14 lg:pt-0">
@@ -30,10 +30,9 @@ const Home = ({ setSelectedPage }) => {
             }}>
             <ReactTyped
               strings={[
-                "Halo! Nama saya",
-                "Hi! My name is",
-                "Bonjour! mon nom est",
-                "¡Hola! mi nombre es",
+                "Hello! I am Vicky Verma",
+                "Frontend Developer",
+                "ReactJS Enthusiast",
               ]}
               typeSpeed={80}
               backSpeed={60}
@@ -52,7 +51,7 @@ const Home = ({ setSelectedPage }) => {
               hidden: { opacity: 0, y: 35 },
               visible: { opacity: 1, y: 0 },
             }}>
-            Muhammad Naufal Dzaki.
+            Vicky Verma.
           </motion.h1>
           <motion.h2
             className="text-nd-white text-lg sm:text-xl md:text-2xl lg:text-3xl"
@@ -64,7 +63,7 @@ const Home = ({ setSelectedPage }) => {
               hidden: { opacity: 0, y: 35 },
               visible: { opacity: 1, y: 0 },
             }}>
-            I'm Junior Web Developer based On Surabaya.
+            I'm Senior Web Developer.
           </motion.h2>
           <motion.div
             initial="hidden"

@@ -54,8 +54,11 @@ const About = ({ setSelectedPage }) => {
                 hidden: { opacity: 0, y: 35 },
                 visible: { opacity: 1, y: 0 },
               }}>
-                Hello! I'm an Informatics undergraduate student with a strong foundation in web programming, which I have been developing since 2020. I am currently focused on advancing my skills in frontend development using React.js, Next.js, and Tailwind CSS, as well as backend development with Laravel. My experience includes building scalable web applications, integrating large datasets, and optimizing performance to ensure high reliability and efficiency. I am passionate about creating user-friendly, visually appealing, and highly functional web solutions.
-            </motion.p>
+            Hello! I'm a skilled Frontend Developer with 4 years of experience in designing and implementing responsive user interfaces, integrating APIs, and optimizing web application performance. I specialize in using modern tools and technologies like React.js, TypeScript, Redux, and Tailwind CSS to create scalable and user-focused web solutions.
+
+Throughout my career, I have contributed to building interactive, modular, and cross-browser-compatible applications. My experience includes leading development teams, developing reusable component libraries, and reducing code redundancy. I am also adept at leveraging state management tools like Redux and Context API to streamline workflows and enhance application performance.
+
+In addition, I have worked on projects that required integrating large datasets, implementing dynamic pricing systems, and automating reporting processes. With a passion for creating visually appealing, highly functional, and reliable web applications, I am committed to delivering exceptional user experiences through innovative development solutions.</motion.p>
             <motion.p
               className="text-nd-white text-base sm:text-xl text-justify"
               initial="hidden"
@@ -101,7 +104,7 @@ const About = ({ setSelectedPage }) => {
                 Here are a few technologies I've been working with recently:
               </motion.p>
               <motion.ul
-                className="grid grid-cols-2 gap-y-2 w-full max-w-[500px] list-inside"
+                className="grid grid-cols-3 gap-y-3 w-full max-w-[500px] list-inside"
                 initial="hidden"
                 whileInView={"visible"}
                 viewport={{ once: true, amount: "all" }}
